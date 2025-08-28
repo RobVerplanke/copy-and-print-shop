@@ -1,8 +1,8 @@
 import { t } from 'i18next';
 import { prices } from '../../prices/prices';
 import {
-  basePriceOptions,
-  shortBasePriceOptions,
+  basePriceOptionsFlyers,
+  shortBasePriceOptionslyers,
   bulkPriceOptions,
   extendedBulkPriceOptions,
 } from '../../../lib/priceOptions';
@@ -27,7 +27,7 @@ export function getTableDigitalPrintA6SingleSided() {
         t('commonWords.price'),
         t('commonWords.price'),
       ],
-      options: basePriceOptions,
+      options: basePriceOptionsFlyers,
       prices: [
         ...Object.values(prices.customPrint.flyers.print.A6.singleSided),
       ],
@@ -54,7 +54,7 @@ export function getTableDigitalPrintA6DoubleSided() {
         t('commonWords.price'),
         t('commonWords.price'),
       ],
-      options: basePriceOptions,
+      options: basePriceOptionsFlyers,
       prices: [
         ...Object.values(prices.customPrint.flyers.print.A6.doubleSided),
       ],
@@ -81,7 +81,7 @@ export function getTableDigitalPrintA5SingleSided() {
         t('commonWords.price'),
         t('commonWords.price'),
       ],
-      options: basePriceOptions,
+      options: basePriceOptionsFlyers,
       prices: [
         ...Object.values(prices.customPrint.flyers.print.A5.singleSided),
       ],
@@ -108,7 +108,7 @@ export function getTableDigitalPrintA5DoubleSided() {
         t('commonWords.price'),
         t('commonWords.price'),
       ],
-      options: shortBasePriceOptions,
+      options: shortBasePriceOptionslyers,
       prices: [
         ...Object.values(prices.customPrint.flyers.print.A5.doubleSided),
       ],

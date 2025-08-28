@@ -1,4 +1,4 @@
-const basePriceOptions: string[] = [
+const basePriceOptionsFlyers: string[] = [
   '50',
   '100',
   '150',
@@ -10,7 +10,7 @@ const basePriceOptions: string[] = [
   '750',
   '1000',
 ];
-const shortBasePriceOptions: string[] = [
+const shortBasePriceOptionslyers: string[] = [
   '50',
   '100',
   '150',
@@ -20,9 +20,12 @@ const shortBasePriceOptions: string[] = [
   '400',
   '500',
 ];
+
+const basePriceOptions: string[] = ['100', '250', '500', '1000'];
 const bulkPriceOptions: string[] = ['500', '1000', '2500', '5000', '10000'];
 const lowPriceOptions: string[] = ['50', '100', '250', '500'];
 const paperSizes: string[] = ['A2', 'B2', 'A1', 'B1', 'A0'];
+const shortBasePriceOptions: string[] = ['100', '250', '500'];
 const shortBulkPriceOptions: string[] = ['500', '1000', '2500', '5000'];
 const splitPriceOptions: string[] = ['1-100', '101-250', '251-500', '501-1000'];
 const splitPriceOptionsShort: string[] = ['1-100', '101-250', '251-500'];
@@ -62,6 +65,8 @@ export {
   splitPriceOptionsExtendedHigh,
   splitPriceOptions,
   lowPriceOptions,
+  basePriceOptionsFlyers,
+  shortBasePriceOptionslyers,
   basePriceOptions,
   shortBasePriceOptions,
   bulkPriceOptions,
