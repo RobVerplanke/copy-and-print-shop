@@ -2,7 +2,7 @@ import { t } from 'i18next';
 import { prices } from '../../prices/prices';
 import {
   basePriceOptionsFlyers,
-  shortBasePriceOptionslyers,
+  shortBasePriceOptionsFlyers,
   bulkPriceOptions,
   extendedBulkPriceOptions,
 } from '../../../lib/priceOptions';
@@ -108,7 +108,7 @@ export function getTableDigitalPrintA5DoubleSided() {
         t('commonWords.price'),
         t('commonWords.price'),
       ],
-      options: shortBasePriceOptionslyers,
+      options: shortBasePriceOptionsFlyers,
       prices: [
         ...Object.values(prices.customPrint.flyers.print.A5.doubleSided),
       ],
