@@ -38,8 +38,7 @@ const splitPriceOptionsExtendedLow: string[] = [
 const splitPriceOptionsExtendedMedium: string[] = [
   '1-10',
   '11-100',
-  '101-500',
-  '501-1000',
+  '101-1000',
 ];
 const splitPriceOptionsExtendedHigh: string[] = [
   '1-10',
