@@ -14,6 +14,9 @@ export const prices = {
         '101-1000': {
           budget: 0.07,
         },
+        '1001+': {
+          budget: 0.06,
+        },
       },
       // Kopieren/printen - A4 - Kleur (budget)
       color: {
