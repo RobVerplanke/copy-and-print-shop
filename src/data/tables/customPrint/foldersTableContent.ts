@@ -1,7 +1,7 @@
 import { t } from 'i18next';
 import { prices } from '../../prices/prices';
 import {
-  lowPriceOptions,
+  lowPriceOptionsShort,
   bulkPriceOptions,
   basePriceOptions,
 } from '../../../lib/priceOptions';
@@ -18,16 +18,14 @@ export function getTableDigitalPrintColor() {
       headerTitles: [
         t('commonWords.folders'),
         t('PaperWeights.150grShort'),
-        t('PaperWeights.170grShort'),
         t('PaperWeights.250grShort'),
       ],
       units: [
         t('commonWords.amount'),
         t('commonWords.price'),
         t('commonWords.price'),
-        t('commonWords.price'),
       ],
-      options: lowPriceOptions,
+      options: lowPriceOptionsShort,
       prices: [...Object.values(prices.customPrint.folders.print.A4.color)],
     },
   };
@@ -42,8 +40,16 @@ export function getTableDigitalPrintBlackAndWhite() {
     tableSubTitle:
       foldersContentPaths.cardDigitalPrint.tableBlackAndWhite.header.subTitle,
     data: {
-      headerTitles: [t('commonWords.folders'), t('PaperWeights.80grShort')],
-      units: [t('commonWords.amount'), t('commonWords.price')],
+      headerTitles: [
+        t('commonWords.folders'),
+        t('PaperWeights.80grWhite'),
+        t('PaperWeights.80grColored'),
+      ],
+      units: [
+        t('commonWords.amount'),
+        t('commonWords.price'),
+        t('commonWords.price'),
+      ],
       options: basePriceOptions,
       prices: [
         ...Object.values(prices.customPrint.folders.print.A4.blackWhite),

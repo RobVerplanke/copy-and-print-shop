@@ -354,7 +354,7 @@
         "header": {
           "title": "DIGITAL PRINT",
           "subTitle": "A4 Format",
-          "introduction": "This overview is for digitally printed A4 brochures, available in color on 150 gsm, 170 gsm, or 250 gsm paper, or black and white on 80 gsm paper. You can choose between a 2 or 3-fold format, depending on the amount of information you wish to present. This size is perfect for distributing detailed information or promotions. The material offers a professional appearance, and the various paper options give you the flexibility to choose the right look for your message.",
+          "introduction": "This overview is for digitally printed A4 brochures, available in color on 150 gsm or 250 gsm paper, or black and white on 80 gsm white or colored paper. You can choose between a 2 or 3-fold format, depending on the amount of information you wish to present. This size is perfect for distributing detailed information or promotions. The material offers a professional appearance, and the various paper options give you the flexibility to choose the right look for your message.",
           "notification": "Delivery in 1-2 working days"
         },
         "tableColor": {
@@ -366,7 +366,7 @@
         "tableBlackAndWhite": {
           "header": {
             "title": "A4 format - Bifold or Trifold",
-            "subTitle": "Black and White - 80 gsm White or colored paper"
+            "subTitle": "Black and White - 80 gsm White or Colored paper"
           }
         }
       },
@@ -552,6 +552,8 @@
     "80gr": "80 gsm paper",
     "80grShort": "80 gsm",
     "80grLong": "With white border on 80 gsm paper",
+    "80grWhite": "80 gsm White Paper",
+    "80grColored": "80 gsm Colored Paper",
     "90gr": "90 gsm paper",
     "90grShort": "90 gsm",
     "135gr": "135 gsm paper",
