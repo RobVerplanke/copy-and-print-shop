@@ -7,22 +7,23 @@ import { useData } from './context/DataContext';
 import { FooterCopyright } from './components/elementTemplates/FooterCopyright ';
 
 // Imports for Toast
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import { useEffect } from 'react';
-import { ShowChristmasToast } from './ShowChristmasToast';
+
+// import { ToastContainer } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
+// import { useEffect } from 'react';
+// import { ShowChristmasToast } from './ShowChristmasToast';
 
 export default function App() {
   const { stylePreset } = useData();
 
   // Always show the Toast after loading the app
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      ShowChristmasToast(); // Add subtile delay to draw the attention more effectivly
-    }, 1000); // Delay
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     ShowChristmasToast(); // Add subtile delay to draw the attention more effectivly
+  //   }, 1000); // Delay
 
-    return () => clearTimeout(timer); // cleanup at unmount
-  }, []);
+  //   return () => clearTimeout(timer); // cleanup at unmount
+  // }, []);
 
   return (
     <div
@@ -43,7 +44,7 @@ export default function App() {
 
       {/* Toast component */}
 
-      <ToastContainer
+      {/* <ToastContainer
         position="bottom-right"
         autoClose={10000}
         hideProgressBar={false}
@@ -52,7 +53,7 @@ export default function App() {
         pauseOnHover
         draggable
         theme="light"
-      />
+      /> */}
     </div>
   );
 }
