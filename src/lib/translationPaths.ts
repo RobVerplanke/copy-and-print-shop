@@ -5,6 +5,7 @@ import stickersIntroduction from '../assets/introduction-images/stickersIntroduc
 import flyersIntroduction from '../assets/introduction-images/flyersIntroduction.jpg';
 import foldersIntroduction from '../assets/introduction-images/foldersIntroduction.jpg';
 import postersIntroduction from '../assets/introduction-images/postersIntroduction.jpg';
+import magazinesIntroduction from '../assets/introduction-images/postersIntroduction.jpg';
 import cardsIntroduction from '../assets/introduction-images/cardsIntroduction.jpg';
 
 // Logo's for Office supplies page
@@ -677,6 +678,61 @@ export const stickersContentPaths = {
           'customPrintPage.stickers.tableLargeFormat.rowHeaders.headerOne',
         headerTwo:
           'customPrintPage.stickers.tableLargeFormat.rowHeaders.headerTwo',
+      },
+    },
+  },
+};
+
+// Custom Print - Stickers
+export const magazinesContentPaths = {
+  data: {
+    image: magazinesIntroduction,
+  },
+  pageHeader: {
+    title: 'customPrintPage.magazines.pageHeader.title',
+    introduction: 'customPrintPage.magazines.pageHeader.introduction',
+  },
+  cardFullColor: {
+    header: {
+      introduction:
+        'customPrintPage.magazines.cardFullColor.header.introduction',
+    },
+    tableA5: {
+      header: {
+        title: 'customPrintPage.magazines.cardFullColor.tableA5.header.title',
+        subTitle:
+          'customPrintPage.magazines.cardFullColor.tableA5.header.subTitle',
+      },
+      columnHeaders: {
+        headerOne:
+          'customPrintPage.magazines.cardFullColor.tableA5.columnHeaders.headerOne',
+        headerTwo:
+          'customPrintPage.magazines.cardFullColor.tableA5.columnHeaders.headerTwo',
+      },
+      rowHeaders: {
+        headerOne:
+          'customPrintPage.magazines.cardFullColor.tableA5.rowHeaders.headerOne',
+        headerTwo:
+          'customPrintPage.magazines.cardFullColor.tableA5.rowHeaders.headerTwo',
+      },
+    },
+    tableA4: {
+      header: {
+        title: 'customPrintPage.magazines.cardFullColor.tableA4.header.title',
+        subTitle:
+          'customPrintPage.magazines.cardFullColor.tableA4.header.subTitle',
+      },
+      columnHeaders: {
+        headerOne:
+          'customPrintPage.magazines.cardFullColor.tableA4.columnHeaders.headerOne',
+        headerTwo:
+          'customPrintPage.magazines.cardFullColor.tableA4.columnHeaders.headerTwo',
+      },
+      rowHeaders: {
+        headerOne:
+          'customPrintPage.magazines.cardFullColor.tableA4.rowHeaders.headerOne',
+        headerTwo:
+          'customPrintPage.magazines.cardFullColor.tableA4.rowHeaders.headerTwo',
       },
     },
   },

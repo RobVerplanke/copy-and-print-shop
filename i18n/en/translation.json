@@ -498,6 +498,59 @@
         }
       }
     },
+    "magazines": {
+      "pageHeader": {
+        "title": "Magazines",
+        "introduction": "Here you will find an overview of the options and costs for printing magazines.<br /><br />You can choose from various options to tailor the magazine to your preferences. This makes it suitable for both informational and promotional use, for example for presentations, product overviews, or publications."
+      },
+      "cardFullColor": {
+        "header": {
+          "title": "Full colour",
+          "subTitle": "150 gsm paper",
+          "introduction": "The magazines are printed as standard on 150 gsm paper and printed full bleed, which ensures a neat and consistent appearance."
+        },
+        "tableA5": {
+          "header": {
+            "title": "A5",
+            "subTitle": "150 gsm paper"
+          },
+          "columnHeaders": {
+            "headerOne": "amount",
+            "headerTwo": "pages"
+          },
+          "rowHeaders": {
+            "headerOne": "aantal",
+            "headerTwo": "paginas"
+          }
+        },
+        "tableA4": {
+          "header": {
+            "title": "A4",
+            "subTitle": "150 gsm paper"
+          },
+          "columnHeaders": {
+            "headerOne": "aantal",
+            "headerTwo": "paginas"
+          },
+          "rowHeaders": {
+            "headerOne": "aantal",
+            "headerTwo": "paginas"
+          }
+        }
+      },
+      "cardExtraOptions": {
+        "header": {
+          "title": "Extra options"
+        },
+        "columnHeaders": {
+          "headerOne": "A5",
+          "headerTwo": "A4"
+        },
+        "rowHeaders": {
+          "headerOne": "Thicker cover 250 gsm"
+        }
+      }
+    },
     "common": {
       "digitalPrintDeliveryTime": "Delivery in 1-2 working days",
       "offsetPrintDeliveryTime": "Delivery in 7 working days",

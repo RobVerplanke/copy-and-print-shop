@@ -506,6 +506,59 @@
         }
       }
     },
+    "magazines": {
+      "pageHeader": {
+        "title": "Magazines",
+        "introduction": "Hier vindt u een overzicht van de mogelijkheden en kosten voor het drukken van magazines. <br /><br />U kunt kiezen uit diverse opties om het magazine af te stemmen op uw wensen. Hierdoor is het geschikt voor zowel informatief als promotioneel gebruik, bijvoorbeeld voor presentaties, product overzichten of publicaties."
+      },
+      "cardFullColor": {
+        "header": {
+          "title": "Full colour",
+          "subTitle": "150 grams papier",
+          "introduction": "De magazines worden standaard gedrukt op 150 grams papier en aflopend geprint, wat zorgt voor een verzorgde en consistente uitstraling."
+        },
+        "tableA5": {
+          "header": {
+            "title": "A5",
+            "subTitle": "150 grams papier"
+          },
+          "columnHeaders": {
+            "headerOne": "aantal",
+            "headerTwo": "paginas"
+          },
+          "rowHeaders": {
+            "headerOne": "aantal",
+            "headerTwo": "paginas"
+          }
+        },
+        "tableA4": {
+          "header": {
+            "title": "A4",
+            "subTitle": "150 grams papier"
+          },
+          "columnHeaders": {
+            "headerOne": "aantal",
+            "headerTwo": "paginas"
+          },
+          "rowHeaders": {
+            "headerOne": "aantal",
+            "headerTwo": "paginas"
+          }
+        }
+      },
+      "cardExtraOptions": {
+        "header": {
+          "title": "Extra opties"
+        },
+        "columnHeaders": {
+          "headerOne": "A5",
+          "headerTwo": "A4"
+        },
+        "rowHeaders": {
+          "headerOne": "Dikkere omslag 205 gram"
+        }
+      }
+    },
     "common": {
       "digitalPrintDeliveryTime": "Levertijd 1-2 werkdagen",
       "offsetPrintDeliveryTime": "Levertijd 7 werkdagen",
