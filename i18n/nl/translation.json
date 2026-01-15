@@ -511,6 +511,19 @@
         "title": "Magazines",
         "introduction": "Hier vindt u een overzicht van de mogelijkheden en kosten voor het drukken van magazines. <br /><br />U kunt kiezen uit diverse opties om het magazine af te stemmen op uw wensen. Hierdoor is het geschikt voor zowel informatief als promotioneel gebruik, bijvoorbeeld voor presentaties, product overzichten of publicaties."
       },
+      "common": {
+        "headerOne": "Magazines",
+        "headerTwo": "12p",
+        "headerThree": "16p",
+        "headerFour": "20p",
+        "headerFive": "24p",
+        "headerSix": "28p",
+        "headerSeven": "32p",
+        "headerEight": "36p",
+        "headerNine": "40p",
+        "headerTen": "44p",
+        "headerEleven": "48p"
+      },
       "cardFullColor": {
         "header": {
           "title": "Full colour",
@@ -548,14 +561,17 @@
       },
       "cardExtraOptions": {
         "header": {
-          "title": "Extra opties"
+          "title": "Extra optie",
+          "subTitle": "Optie",
+          "paperWeight": "250 grams papier",
+          "introduction": "Kies voor een dikkere omslag om het magazine extra stevigheid en een professionelere uitstraling te geven. Deze optie is geschikt wanneer het magazine intensiever gebruikt wordt of een luxere afwerking gewenst is."
         },
         "columnHeaders": {
           "headerOne": "A5",
           "headerTwo": "A4"
         },
         "rowHeaders": {
-          "headerOne": "Dikkere omslag 205 gram"
+          "headerOne": "Dikkere omslag - 250 grams papier"
         }
       }
     },
@@ -730,6 +746,7 @@
     "flyers": "Flyers",
     "folders": "Folders",
     "posters": "Posters",
+    "magazines": "Magazines",
     "facebook": "Facebook",
     "telephoneNo": "Telefoonnummer",
     "email": "E-mailadres"

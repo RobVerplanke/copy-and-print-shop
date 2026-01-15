@@ -5,6 +5,7 @@ import {
   flyersContentPaths,
   foldersContentPaths,
   postersContentPaths,
+  magazinesContentPaths,
   stickersContentPaths,
 } from '../../lib/translationPaths';
 
@@ -41,6 +42,13 @@ export const postersPageContent = {
   pageIntroduction: postersContentPaths.pageHeader.introduction,
   pageLink: '/custom-print/posters',
   image: postersContentPaths.data.image,
+};
+
+export const magazinesPageContent = {
+  pageTitle: magazinesContentPaths.pageHeader.title,
+  pageIntroduction: magazinesContentPaths.pageHeader.introduction,
+  pageLink: '/custom-print/magazines',
+  image: magazinesContentPaths.data.image,
 };
 
 export const copyPrintPageContent = {

@@ -5,7 +5,7 @@ import stickersIntroduction from '../assets/introduction-images/stickersIntroduc
 import flyersIntroduction from '../assets/introduction-images/flyersIntroduction.jpg';
 import foldersIntroduction from '../assets/introduction-images/foldersIntroduction.jpg';
 import postersIntroduction from '../assets/introduction-images/postersIntroduction.jpg';
-import magazinesIntroduction from '../assets/introduction-images/postersIntroduction.jpg';
+import magazinesIntroduction from '../assets/introduction-images/magazinesIntroduction.jpg';
 import cardsIntroduction from '../assets/introduction-images/cardsIntroduction.jpg';
 
 // Logo's for Office supplies page
@@ -683,7 +683,7 @@ export const stickersContentPaths = {
   },
 };
 
-// Custom Print - Stickers
+// Custom Print - Magazines
 export const magazinesContentPaths = {
   data: {
     image: magazinesIntroduction,
@@ -696,6 +696,8 @@ export const magazinesContentPaths = {
     header: {
       introduction:
         'customPrintPage.magazines.cardFullColor.header.introduction',
+      title: 'customPrintPage.magazines.cardFullColor.header.title',
+      subTitle: 'customPrintPage.magazines.cardFullColor.header.subTitle',
     },
     tableA5: {
       header: {
@@ -735,5 +737,16 @@ export const magazinesContentPaths = {
           'customPrintPage.magazines.cardFullColor.tableA4.rowHeaders.headerTwo',
       },
     },
+  },
+  cardExtraOptions: {
+    header: {
+      title: 'customPrintPage.magazines.cardExtraOptions.header.title',
+      subTitle: 'customPrintPage.magazines.cardExtraOptions.header.subTitle',
+      paperWeight:
+        'customPrintPage.magazines.cardExtraOptions.header.paperWeight',
+      introduction:
+        'customPrintPage.magazines.cardExtraOptions.header.introduction',
+    },
+    tableContent: 'customPrintPage.magazines.cardExtraOptions.tableContent',
   },
 };

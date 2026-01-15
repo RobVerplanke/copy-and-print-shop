@@ -10,6 +10,7 @@ import {
   Flyers,
   Folders,
   Posters,
+  Magazines,
   Stickers,
   OfficeSupplies,
   TermsOfSalePage,
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
       {
         path: 'custom-print/posters',
         element: <Posters />,
+      },
+      {
+        path: 'custom-print/magazines',
+        element: <Magazines />,
       },
       {
         path: 'office-supplies',

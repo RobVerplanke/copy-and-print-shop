@@ -503,6 +503,19 @@
         "title": "Magazines",
         "introduction": "Here you will find an overview of the options and costs for printing magazines.<br /><br />You can choose from various options to tailor the magazine to your preferences. This makes it suitable for both informational and promotional use, for example for presentations, product overviews, or publications."
       },
+      "common": {
+        "headerOne": "Magazines",
+        "headerTwo": "12p",
+        "headerThree": "16p",
+        "headerFour": "20p",
+        "headerFive": "24p",
+        "headerSix": "28p",
+        "headerSeven": "32p",
+        "headerEight": "36p",
+        "headerNine": "40p",
+        "headerTen": "44p",
+        "headerEleven": "48p"
+      },
       "cardFullColor": {
         "header": {
           "title": "Full colour",
@@ -540,14 +553,17 @@
       },
       "cardExtraOptions": {
         "header": {
-          "title": "Extra options"
+          "title": "Extra option",
+          "subTitle": "Option",
+          "paperWeight": "250 gsm paper",
+          "introduction": "Choose a thicker cover to give the magazine extra durability and a more professional appearance. This option is suitable when the magazine will be used more intensively or when a more premium finish is desired."
         },
         "columnHeaders": {
           "headerOne": "A5",
           "headerTwo": "A4"
         },
         "rowHeaders": {
-          "headerOne": "Thicker cover 250 gsm"
+          "headerOne": "Thicker cover - 250 gsm paper"
         }
       }
     },
@@ -722,6 +738,7 @@
     "flyers": "Flyers",
     "folders": "Folders",
     "posters": "Posters",
+    "magazines": "Magazines",
     "facebook": "Facebook",
     "telephoneNo": "Phone number",
     "email": "Email address"

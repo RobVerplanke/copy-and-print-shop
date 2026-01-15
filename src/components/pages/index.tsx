@@ -7,6 +7,7 @@ import CustomClothing from './CustomClothing';
 import Flyers from './customPrint/Flyers';
 import Folders from './customPrint/Folders';
 import Posters from './customPrint/Posters';
+import Magazines from './customPrint/Magazines';
 import Stickers from './customPrint/Stickers';
 import OfficeSupplies from './../../components/pages/OfficeSupplies';
 import TermsOfSalePage from './../../components/pages/TermsOfSalePage';
@@ -22,6 +23,7 @@ export {
   Flyers,
   Folders,
   Posters,
+  Magazines,
   Stickers,
   OfficeSupplies,
   TermsOfSalePage,
