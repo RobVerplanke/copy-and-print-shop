@@ -104,6 +104,7 @@ export const menuButtonNames = {
   flyers: 'menu.flyers',
   folders: 'menu.folders',
   posters: 'menu.posters',
+  magazines: 'menu.magazines',
   customClothing: 'menu.customClothing',
   contact: 'menu.contact',
   officeSupplies: 'menu.articles',

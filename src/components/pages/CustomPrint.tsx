@@ -12,6 +12,7 @@ import {
   foldersPageContent,
   postersPageContent,
   stickersPageContent,
+  magazinesPageContent,
 } from '../../data/pages/pagesContent';
 import { Divider } from '@mui/material';
 import { useData } from '../../context/DataContext';
@@ -31,6 +32,7 @@ export default function CustomPrint() {
     flyersPageContent,
     foldersPageContent,
     postersPageContent,
+    magazinesPageContent,
   ];
 
   return (

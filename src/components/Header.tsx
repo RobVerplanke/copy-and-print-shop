@@ -208,6 +208,11 @@ export default function Header() {
                   value={t(menuButtonNames.posters)}
                   callBack={handleAccordionLinkClick}
                 />
+                <SubNavigationLink
+                  path={'/custom-print/magazines'}
+                  value={t(menuButtonNames.magazines)}
+                  callBack={handleAccordionLinkClick}
+                />
               </ul>
             )}
           </NagivationExpandableLink>
