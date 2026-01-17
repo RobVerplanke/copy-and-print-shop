@@ -781,7 +781,7 @@ export const prices = {
     // Drukwerk - Magazines
     magazines: {
       fullColor: {
-        A5: {
+        A4: {
           '1-5': {
             '12p': 4.5,
             '16p': 6,
@@ -807,7 +807,7 @@ export const prices = {
             '48p': 15.6,
           },
         },
-        A4: {
+        A5: {
           '1-5': {
             '12p': 9,
             '16p': 12,
