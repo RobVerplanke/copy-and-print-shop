@@ -713,7 +713,7 @@ export const prices = {
     stickers: {
       // Drukwerk - Stickers - A4
       A4: {
-        perA4: 8.95,
+        perA4: 9.95,
       },
       // Drukwerk - Stickers - Vierkante meter
       // squareMeter: {
