@@ -96,7 +96,7 @@ export default function Posters() {
             <div className="flex items-start">
               <TextBlock
                 value={customPrintingContentPaths.deliveryDisclaimer}
-                variant="bodySmall"
+                variant="bold"
               />
             </div>
           </Notification>

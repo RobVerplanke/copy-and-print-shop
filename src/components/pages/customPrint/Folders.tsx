@@ -31,18 +31,18 @@ export default function Folders() {
 
   // Get table data with a function so the content is directly translatable in this component
   const [tableDigitalPrintColor, setTableDigitalPrintColor] = useState(
-    getTableDigitalPrintColor()
+    getTableDigitalPrintColor(),
   );
   const [tableDigitalPrintBlackAndWhite, setTableDigitalPrintBlackAndWhite] =
     useState(getTableDigitalPrintBlackAndWhite());
   const [tableOffsetPrintA4Trifold, setTableOffsetPrintA4Trifold] = useState(
-    getTableOffsetPrintA4Trifold()
+    getTableOffsetPrintA4Trifold(),
   );
   const [tableOffsetPrintA4Bifold, setTableOffsetPrintA4Bifold] = useState(
-    getTableOffsetPrintA4Bifold()
+    getTableOffsetPrintA4Bifold(),
   );
   const [tableOffsetPrintA3Trifold, setTableOffsetPrintA3Trifold] = useState(
-    getTableOffsetPrintA3Trifold()
+    getTableOffsetPrintA3Trifold(),
   );
 
   // When the language is changed, update the table content directly
@@ -123,7 +123,7 @@ export default function Folders() {
               </div>
               <TextBlock
                 value={customPrintingContentPaths.deliveryDisclaimer}
-                variant="bodySmall"
+                variant="bold"
               />
             </div>
           </Notification>

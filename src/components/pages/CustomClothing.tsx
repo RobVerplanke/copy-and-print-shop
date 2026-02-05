@@ -28,11 +28,11 @@ export default function CustomClothing() {
 
   // Get table data with a function so the content is directly translatable in this component
   const [tableTextileGarments, setTableTextileGarments] = useState(
-    getTableTextileGarments()
+    getTableTextileGarments(),
   );
 
   const [tableFlexMaterial, setTableFlexMaterial] = useState(
-    getTableFlexMaterial()
+    getTableFlexMaterial(),
   );
 
   const [tableDtg, setTableDtg] = useState(getTableDtg());
@@ -100,19 +100,19 @@ export default function CustomClothing() {
           <Notification>
             <TextBlock
               value={customClotingContentPaths.notifications.first}
-              variant="bodySmall"
+              variant="bold"
             />
             <TextBlock
               value={customClotingContentPaths.notifications.second}
-              variant="bodySmall"
+              variant="bold"
             />
             <TextBlock
               value={customClotingContentPaths.notifications.third}
-              variant="bodySmall"
+              variant="bold"
             />
             <TextBlock
               value={customClotingContentPaths.notifications.fourth}
-              variant="bodySmall"
+              variant="bold"
             />
           </Notification>
         </div>

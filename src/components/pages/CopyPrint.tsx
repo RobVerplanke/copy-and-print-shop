@@ -28,7 +28,7 @@ export default function CopyPrint() {
 
   // Get table data with a function so the content is directly translatable in this component
   const [tableDataBudgetColor, setTableDataBudgetColor] = useState(
-    getTableDataBudgetColor()
+    getTableDataBudgetColor(),
   );
 
   const [tableDataBudgetBlackAndWhite, setTableDataBudgetBlackAndWhite] =
@@ -93,6 +93,13 @@ export default function CopyPrint() {
         {/* Notification - If needed, place a notification message at the bottom of the page */}
         <div className="z-0 w-full">
           <Notification>
+            <TextBlock
+              value={copyPrintContentPaths.notifications.fourth}
+              variant="bold"
+            />
+            <br></br>
+            <hr />
+            <br></br>
             <div className="flex items-start">
               <div
                 className={`
@@ -104,16 +111,16 @@ export default function CopyPrint() {
               </div>
               <TextBlock
                 value={copyPrintContentPaths.notifications.first}
-                variant="bodySmall"
+                variant="bold"
               />
             </div>
             <TextBlock
               value={copyPrintContentPaths.notifications.second}
-              variant="bodySmall"
+              variant="bold"
             />
             <TextBlock
               value={copyPrintContentPaths.notifications.third}
-              variant="bodySmall"
+              variant="bold"
             />
           </Notification>
         </div>

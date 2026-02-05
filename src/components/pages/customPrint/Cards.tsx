@@ -32,11 +32,11 @@ export default function Cards() {
     useState(getTableDigitalPrintBlackAndWhite());
 
   const [tableDigitalPrintColor, setTableDigitalPrintColor] = useState(
-    getTableDigitalPrintColor()
+    getTableDigitalPrintColor(),
   );
 
   const [tableOffsetPrintColor, setTableOffsetPrintColor] = useState(
-    getTableOffsetPrintColor()
+    getTableOffsetPrintColor(),
   );
 
   // When the language is changed, update the table content directly
@@ -107,7 +107,7 @@ export default function Cards() {
               </div>
               <TextBlock
                 value={customPrintingContentPaths.deliveryDisclaimer}
-                variant="bodySmall"
+                variant="bold"
               />
             </div>
           </Notification>

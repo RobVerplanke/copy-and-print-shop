@@ -303,6 +303,7 @@ export const copyPrintContentPaths = {
     first: 'copyPrintPage.notifications.first',
     second: 'copyPrintPage.notifications.second',
     third: 'copyPrintPage.notifications.third',
+    fourth: 'copyPrintPage.notifications.fourth',
   },
 };
 

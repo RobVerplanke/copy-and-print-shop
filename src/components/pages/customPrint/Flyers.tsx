@@ -122,7 +122,7 @@ export default function Flyers() {
               </div>
               <TextBlock
                 value={customPrintingContentPaths.deliveryDisclaimer}
-                variant="bodySmall"
+                variant="bold"
               />
             </div>
           </Notification>

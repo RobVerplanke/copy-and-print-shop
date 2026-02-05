@@ -37,29 +37,29 @@ export default function Posters() {
   // Get table data with a function so the content is directly translatable in this component
   const [table80gsmColor, setTable80gsmColor] = useState(getTable80gsmColor());
   const [table80gsmBlackAndWhite, setTable80gsmBlackAndWhite] = useState(
-    getTable80gsmBlackAndWhite()
+    getTable80gsmBlackAndWhite(),
   );
   const [table160gsmMatte, setTable160gsmMatte] = useState(
-    getTable160gsmMatte()
+    getTable160gsmMatte(),
   );
   const [table160gsmSatin, setTable160gsmSatin] = useState(
-    getTable160gsmSatin()
+    getTable160gsmSatin(),
   );
   const [table190gsmGloss, setTable190gsmGloss] = useState(
-    getTable190gsmGloss()
+    getTable190gsmGloss(),
   );
   const [table260gsmSatin, setTable260gsmSatin] = useState(
-    getTable260gsmSatin()
+    getTable260gsmSatin(),
   );
   const [tablePolypropylene, setTablePolypropylene] = useState(
-    getTablePolypropylene()
+    getTablePolypropylene(),
   );
   const [table260gsmHandmade, setTable260gsmHandmade] = useState(
-    getTable260gsmHandmade()
+    getTable260gsmHandmade(),
   );
   const [tableColorA3Hq, setTableColorA3Hq] = useState(getTableColorA3Hq());
   const [tableColorA3Budget, setTableColorA3Budget] = useState(
-    getTableColorA3Budget()
+    getTableColorA3Budget(),
   );
 
   // When the language is changed, update the table content directly
@@ -174,7 +174,7 @@ export default function Posters() {
               </div>
               <TextBlock
                 value={customPrintingContentPaths.pricesBasedonSelfService}
-                variant="bodySmall"
+                variant="bold"
               />
             </div>
           </Notification>
