@@ -29,13 +29,13 @@ export default function Posters() {
 
   // Get table data with a function so the content is directly translatable in this component
   const [tableA5FullColor, setTableA5FullColor] = useState(
-    getTableA5FullColor()
+    getTableA5FullColor(),
   );
   const [tableA4FullColor, setTableA4FullColor] = useState(
-    getTableA4FullColor()
+    getTableA4FullColor(),
   );
   const [tableExtraOptions, setTableExtraOptions] = useState(
-    getTableExtraOptions()
+    getTableExtraOptions(),
   );
 
   // When the language is changed, update the table content directly
@@ -94,14 +94,6 @@ export default function Posters() {
         <div className="z-0 w-full">
           <Notification>
             <div className="flex items-start">
-              <div
-                className={`
-                  font-semibold
-                  ${stylePreset.notification.asteriskColor}
-                  `}
-              >
-                <span>*&nbsp;</span>
-              </div>
               <TextBlock
                 value={customPrintingContentPaths.deliveryDisclaimer}
                 variant="bodySmall"
