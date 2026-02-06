@@ -1,5 +1,6 @@
 // Page heading images
 import copyPrintIntroduction from '../assets/introduction-images/copyPrintIntroduction.jpg';
+import finishingIntroduction from '../assets/introduction-images/finishingIntroduction.jpg';
 import customClothingIntroductionMale from '../assets/introduction-images/customPrintIntroduction-male-med.jpg';
 import stickersIntroduction from '../assets/introduction-images/stickersIntroduction.jpg';
 import flyersIntroduction from '../assets/introduction-images/flyersIntroduction.jpg';
@@ -97,6 +98,7 @@ export const contactInfoTextContent = {
 export const menuButtonNames = {
   home: 'menu.home',
   copyPrint: 'menu.copyPrint',
+  finishing: 'menu.finishing',
   customPrinting: 'menu.customPrinting',
   overview: 'menu.overview',
   stickers: 'menu.stickers',
@@ -309,6 +311,9 @@ export const copyPrintContentPaths = {
 
 // Finishing
 export const finishingContentPaths = {
+  data: {
+    image: finishingIntroduction,
+  },
   pageHeader: {
     title: 'finishingPage.pageHeader.title',
     introduction: 'finishingPage.pageHeader.introduction',

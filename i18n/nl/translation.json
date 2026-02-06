@@ -2,6 +2,7 @@
   "menu": {
     "home": "Start",
     "copyPrint": "Kopieren & Printen",
+    "finishing": "Afwerking",
     "overview": "Overzicht",
     "customPrinting": "Drukwerk",
     "stickers": "Stickers",
@@ -626,7 +627,7 @@
   "finishingPage": {
     "pageHeader": {
       "title": "Afwerking",
-      "introduction": "Met onze afwerkingsopties maakt u uw printwerk compleet en professioneel. Zo kunt u uw documenten beschermen met lamineren, posters stevig op foamboard bevestigen of verslagen en presentaties netjes inbinden. Op deze pagina vindt u alle mogelijkheden en bijbehorende prijzen, waarbij u kunt kiezen uit verschillende formaten en afwerkingen zoals een matte of glanzende laag."
+      "introduction": "Met onze afwerkingsopties maakt u uw printwerk compleet en professioneel. Zo kunt u uw documenten beschermen met lamineren, posters stevig op foamboard bevestigen of verslagen en presentaties netjes inbinden.<br><br>Op deze pagina vindt u alle mogelijkheden en bijbehorende prijzen, waarbij u kunt kiezen uit verschillende formaten en afwerkingen zoals een matte of glanzende laag."
     },
     "cardLaminating": {
       "title": "Lamineren",
@@ -634,6 +635,7 @@
       "tableLaminating": {
         "title": "Lamineren",
         "variants": {
+          "card": "Visitekaartje",
           "A6mid": "A6 middel",
           "A5mid": "A5 middel",
           "A4thin": "A4 dun",

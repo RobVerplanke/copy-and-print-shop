@@ -5,6 +5,7 @@ import {
   Cards,
   Contact,
   CopyPrint,
+  Finishing,
   CustomPrint,
   CustomClothing,
   Flyers,
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: 'copy-print',
         element: <CopyPrint />,
+      },
+      {
+        path: 'finishing',
+        element: <Finishing />,
       },
       {
         path: 'custom-clothing',

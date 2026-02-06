@@ -2,6 +2,7 @@
   "menu": {
     "home": "Home",
     "copyPrint": "Copy & Print",
+    "finishing": "Finishing",
     "overview": "Overview",
     "customPrinting": "Custom print",
     "stickers": "Stickers",
@@ -618,7 +619,7 @@
   "finishingPage": {
     "pageHeader": {
       "title": "Finishing",
-      "introduction": "With our finishing options, you can give your printwork a complete and professional finish. Protect your documents with laminating, mount posters securely on foam board, or neatly bind reports and presentations. On this page, you will find all available options and prices, with a choice of different formats and finishes such as a matte or glossy layer."
+      "introduction": "With our finishing options, you can give your printwork a complete and professional finish. Protect your documents with laminating, mount posters securely on foam board, or neatly bind reports and presentations.<br><br>On this page, you will find all available options and prices, with a choice of different formats and finishes such as a matte or glossy layer."
     },
     "cardLaminating": {
       "title": "Laminating",
@@ -644,7 +645,7 @@
       "introduction": "Finish your documents and reports neatly with our binding options. Binding includes plastic covers, and calendar binding also comes with a hanger and backing board. Below you’ll find the prices for wire binding, perfect binding, and calendar binding.",
       "tableBinding": {
         "title": "Binding",
-        "subtitle": "Wire binding & perfect binding",
+        "subtitle": "Wire binding & Perfect binding",
         "variants": {
           "to50": "10-50 pages",
           "to100": "51-100 pages",

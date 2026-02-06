@@ -142,11 +142,11 @@ export default function Header() {
         ${stylePreset.header.backgroundColor}
       `}
     >
-      <nav className="flex flex-col lg:flex-row lg:justify-center pb-1 px-4">
+      <nav className="flex flex-col xl:flex-row xl:justify-center pb-1 px-4">
         {/* Logo + Hamburger menu */}
         <div>
           {/* Hamburger button - only visible at small screens */}
-          <button className="lg:hidden pt-2" onClick={toggleMobileMenu}>
+          <button className="xl:hidden pt-2" onClick={toggleMobileMenu}>
             <MenuIcon fontSize="large" />
           </button>
         </div>
@@ -155,7 +155,7 @@ export default function Header() {
         <div
           className={`${
             isMobileMenuOpen ? 'flex' : 'hidden'
-          } flex-col gap-2 pl-1 lg:flex lg:flex-row lg:items-center items-start lg:gap-12`}
+          } flex-col gap-2 pl-1 xl:flex xl:flex-row xl:items-center items-start xl:gap-12`}
         >
           <NavigationLink path={'/'} value={t(menuButtonNames.home)} />
 
@@ -163,6 +163,12 @@ export default function Header() {
             path={'/copy-print'}
             value={t(menuButtonNames.copyPrint)}
           />
+
+          <NavigationLink
+            path={'/finishing'}
+            value={t(menuButtonNames.finishing)}
+          />
+
           <NagivationExpandableLink>
             {isAccordionOpen && (
               <ul
@@ -230,8 +236,8 @@ export default function Header() {
           />
 
           {/* Taalkeuze */}
-          <div className="flex flex-col lg:flex-row gap-1 lg:gap-6">
-            <div className="flex items-center pt-2 lg:pt-0">
+          <div className="flex flex-col xl:flex-row gap-1 xl:gap-6">
+            <div className="flex items-center pt-2 xl:pt-0">
               <LanguageIcon fontSize={'small'} />
               <select
                 name="language"
@@ -245,7 +251,7 @@ export default function Header() {
                 <option value="en">EN</option>
               </select>
             </div>
-            <div className="flex items-center gap-1 pt-1 lg:pt-0">
+            <div className="flex items-center gap-1 pt-1 xl:pt-0">
               <div className="text-yellow-500 pb-1">
                 <LightModeIcon fontSize="small" />
               </div>

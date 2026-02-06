@@ -10,7 +10,8 @@ import { finishingContentPaths } from '../../../lib/translationPaths';
 export function getTableLaminating() {
   return {
     hasAsterisk: false,
-    tableTitle: finishingContentPaths.cardLaminating.tableLaminating.title,
+    tableTitle: '',
+    tableSubTitle: '',
     data: {
       headerTitles: [t('commonWords.laminating'), t('commonWords.perPiece')],
       units: [t('commonWords.format'), t('commonWords.price')],
@@ -32,14 +33,14 @@ export function getTableLaminating() {
 export function getTablePosterLaminating() {
   return {
     hasAsterisk: false,
-    tableTitle:
-      finishingContentPaths.cardLaminating.tablePosterLaminating.title,
+    tableTitle: '',
+    tableSubTitle: '',
     data: {
       headerTitles: [
         t('commonWords.posterLaminating'),
         t('commonWords.perPiece'),
       ],
-      units: [t('paperFormats.format'), t('paperFormats.price')],
+      units: [t('commonWords.format'), t('commonWords.price')],
       options: paperSizes,
       prices: [...Object.values(prices.finishing.posterLaminating)],
     },
@@ -50,8 +51,8 @@ export function getTablePosterLaminating() {
 export function getTableBinding() {
   return {
     hasAsterisk: false,
-    tableTitle: finishingContentPaths.cardBinding.tableBinding.title,
-    tableSubTitle: finishingContentPaths.cardBinding.tableBinding.subtitle,
+    tableTitle: finishingContentPaths.cardBinding.tableBinding.subtitle,
+    tableSubTitle: '',
     data: {
       headerTitles: [
         t('commonWords.binding'),
@@ -79,6 +80,7 @@ export function getTableCalendarBinding() {
   return {
     hasAsterisk: false,
     tableTitle: finishingContentPaths.cardBinding.tableCalendarBinding.title,
+    tableSubTitle: '',
     data: {
       headerTitles: [
         t('commonWords.calendarBinding'),
@@ -100,14 +102,15 @@ export function getTableCalendarBinding() {
 export function getTableFoamboard() {
   return {
     hasAsterisk: false,
-    tableTitle: finishingContentPaths.foamboard.tableFoamboard.title,
-    tableSubTitle: finishingContentPaths.foamboard.tableFoamboard.subtitle,
+    tableTitle: '',
+    tableSubTitle: '',
     data: {
+      // image:
       headerTitles: [
         t('finishingPage.foamboard.title'),
         t('commonWords.perPiece'),
       ],
-      units: [t('paperFormats.format'), t('paperFormats.price')],
+      units: [t('commonWords.format'), t('commonWords.price')],
       options: [
         t('paperFormats.A4'),
         t('paperFormats.A3'),

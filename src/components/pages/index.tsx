@@ -2,6 +2,7 @@ import Home from './Home';
 import Cards from './customPrint/Cards';
 import Contact from './Contact';
 import CopyPrint from './CopyPrint';
+import Finishing from './Finishing';
 import CustomPrint from '../../components/pages/CustomPrint';
 import CustomClothing from './CustomClothing';
 import Flyers from './customPrint/Flyers';
@@ -18,6 +19,7 @@ export {
   Cards,
   Contact,
   CopyPrint,
+  Finishing,
   CustomPrint,
   CustomClothing,
   Flyers,

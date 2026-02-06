@@ -64,13 +64,11 @@ export const copyPrintPageContent = {
 export const customClothingPageContent = {
   pageTitle: customClotingContentPaths.pageHeader.title,
   pageIntroduction: customClotingContentPaths.pageHeader.introduction,
-  pageLink: '/copy-print',
   image: customClotingContentPaths.data.image,
 };
 
 export const finishingPageContent = {
   pageTitle: finishingContentPaths.pageHeader.title,
   pageIntroduction: finishingContentPaths.pageHeader.introduction,
-  pageLink: '/custom-print/folders',
-  image: foldersContentPaths.data.image,
+  image: finishingContentPaths.data.image,
 };

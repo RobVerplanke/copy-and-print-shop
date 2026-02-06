@@ -1,26 +1,24 @@
 import { useTranslation } from 'react-i18next';
 import {
-  customPrintingContentPaths,
   finishingContentPaths,
   shopInfoPaths,
-} from '../../../lib/translationPaths';
-import SendMessage from '../../contact/SendMessage';
-import { TextBlock } from '../../elementTemplates/TextBlock';
-import { Notification } from '../../elementTemplates/Notification';
+} from '../../lib/translationPaths';
+import SendMessage from '../contact/SendMessage';
+import { TextBlock } from '../elementTemplates/TextBlock';
 import { Divider } from '@mui/material';
-import { useData } from '../../../context/DataContext';
-import PageTitleAndIntroduction from '../../elementTemplates/PageTitleAndIntroduction';
-import ContentCard from '../../elementTemplates/contentHolders/ContentCard';
+import { useData } from '../../context/DataContext';
+import PageTitleAndIntroduction from '../elementTemplates/PageTitleAndIntroduction';
+import ContentCard from '../elementTemplates/contentHolders/ContentCard';
 import {
   getTableLaminating,
   getTablePosterLaminating,
   getTableBinding,
   getTableCalendarBinding,
   getTableFoamboard,
-} from '../../../data/tables/customPrint/finishingTableContent';
+} from '../../data/tables/customPrint/finishingTableContent';
 import { useEffect, useState } from 'react';
-import i18n from '../../../utils/i18';
-import { finishingPageContent } from '../../../data/pages/pagesContent';
+import i18n from '../../utils/i18';
+import { finishingPageContent } from '../../data/pages/pagesContent';
 
 export default function Finishing() {
   // Make text content translatable
@@ -110,29 +108,11 @@ export default function Finishing() {
           />
         </div>
 
-        {/* Display notification message table */}
-        <div className="z-0 w-full">
-          <Notification>
-            <div className="flex items-start">
-              <div
-                className={`
-                  font-semibold
-                  ${stylePreset.notification.asteriskColor}
-                  `}
-              >
-                <span>*&nbsp;</span>
-              </div>
-              <TextBlock
-                value={customPrintingContentPaths.deliveryDisclaimer}
-                variant="bold"
-              />
-            </div>
-          </Notification>
-        </div>
+        {/* Divider - Visually create the end of the pricing content  */}
         <Divider
           style={{
             backgroundColor: `${stylePreset.overall.diverderColor}`,
-            marginTop: '16px',
+            marginTop: '32px',
             marginBottom: '64px',
           }}
           flexItem
