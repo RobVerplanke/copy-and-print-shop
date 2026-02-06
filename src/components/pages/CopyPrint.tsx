@@ -97,9 +97,15 @@ export default function CopyPrint() {
               value={copyPrintContentPaths.notifications.fourth}
               variant="bold"
             />
-            <br></br>
-            <hr />
-            <br></br>
+            <Divider
+              style={{
+                backgroundColor: `${stylePreset.overall.diverderColor}`,
+                marginTop: '18px',
+                marginBottom: '18px',
+              }}
+              flexItem
+              variant="fullWidth"
+            />
             <div className="flex items-start">
               <div
                 className={`
@@ -129,7 +135,7 @@ export default function CopyPrint() {
         <Divider
           style={{
             backgroundColor: `${stylePreset.overall.diverderColor}`,
-            marginTop: '16px',
+            marginTop: '32px',
             marginBottom: '64px',
           }}
           flexItem
