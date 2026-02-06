@@ -615,6 +615,56 @@
       "fourth": "ATTENTION: The above prices are based on standard printing only. Flyers, posters, or business cards are not included. If you would like us to print this type of material, the prices listed under the “Custom print” section will apply.<br>We also do not provide assistance with tasks such as placing multiple images on a single sheet or finishing work (cutting, creasing, folding); this is the customer’s responsibility."
     }
   },
+  "finishingPage": {
+    "pageHeader": {
+      "title": "Finishing",
+      "introduction": "With our finishing options, you can give your printwork a complete and professional finish. Protect your documents with laminating, mount posters securely on foam board, or neatly bind reports and presentations. On this page, you will find all available options and prices, with a choice of different formats and finishes such as a matte or glossy layer."
+    },
+    "cardLaminating": {
+      "title": "Laminating",
+      "introduction": "Protect your documents and printwork with laminating, helping them stay in good condition for longer. Large-format laminating is available with either a matte or glossy finish. Below you will find the prices per format and type of lamination.",
+      "tableLaminating": {
+        "title": "Laminating",
+        "variants": {
+          "card": "Business Cards",
+          "A6mid": "A6 standard",
+          "A5mid": "A5 standard",
+          "A4thin": "A4 Light",
+          "A4mid": "A4 standard",
+          "A4thick": "A4 Heavy",
+          "A3mid": "A3 standard"
+        }
+      },
+      "tablePosterLaminating": {
+        "title": "Poster laminating"
+      }
+    },
+    "cardBinding": {
+      "title": "Binding",
+      "introduction": "Finish your documents and reports neatly with our binding options. Binding includes plastic covers, and calendar binding also comes with a hanger and backing board. Below you’ll find the prices for wire binding, perfect binding, and calendar binding.",
+      "tableBinding": {
+        "title": "Binding",
+        "subtitle": "Wire binding & perfect binding",
+        "variants": {
+          "to50": "10-50 pages",
+          "to100": "51-100 pages",
+          "to200": "101-200 pages",
+          "to280": "201-280 pages"
+        }
+      },
+      "tableCalendarBinding": {
+        "title": "Calendar binding"
+      }
+    },
+    "foamboard": {
+      "title": "Foamboard",
+      "introduction": "Give your prints extra strength and stability with our self-adhesive foam board. Ideal for posters and presentations that can be mounted directly, available in various sizes.",
+      "tableFoamboard": {
+        "title": "Foamboard",
+        "subtitle": "Self-adhesive"
+      }
+    }
+  },
   "officeSupplies": {
     "title": "Office supplies",
     "introduction": "Efficient work starts with the right office supplies. In our store, you will find a wide range of office essentials, from writing materials and binders to envelopes and labels. Additionally, we offer an large selection of cartridges for various printers, ensuring sharp and clear prints at all times.<br /><br />Our selection includes products from well-known brands, carefully chosen for their quality and reliability."
@@ -649,6 +699,11 @@
     "range160grTo260gr": "160 gsm to 260 gsm paper"
   },
   "paperFormats": {
+    "A0": "A0",
+    "A1": "A1",
+    "A2": "A2",
+    "B2": "B2",
+    "A3": "A3",
     "A3Budget": "A3 Budget Quality",
     "A3Format": "A3 size",
     "A3Hq": "A3 High Quality",
@@ -737,10 +792,15 @@
     "clothingGarment": "Garment",
     "format": "Size",
     "cards": "Cards",
+    "businessCards": "Business Cards",
     "flyers": "Flyers",
     "folders": "Folders",
     "posters": "Posters",
     "magazines": "Magazines",
+    "laminating": "Laminating",
+    "binding": "Binding",
+    "calendarBinding": "Calendar binding",
+    "posterLaminating": "Poster laminating",
     "facebook": "Facebook",
     "telephoneNo": "Phone number",
     "email": "Email address"

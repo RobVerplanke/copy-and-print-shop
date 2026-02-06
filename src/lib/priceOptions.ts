@@ -31,6 +31,7 @@ const shortBulkPriceOptions: string[] = ['500', '1000', '2500', '5000'];
 const splitPriceOptions: string[] = ['1-100', '101-250', '251-500', '501-1000'];
 const splitPriceOptionsShort: string[] = ['1-100', '101-250', '251-500'];
 const splitPriceOptionsShortLow: string[] = ['1-10', '11-100', '101-250'];
+const splitPriceOptionsShortLowest: string[] = ['1-10', '11-50', '51-100'];
 const splitPriceOptionsExtendedLow: string[] = [
   '1-10',
   '11-100',
@@ -58,6 +59,7 @@ export {
   splitPriceOptionsShort,
   splitPriceOptionsShortLow,
   splitPriceOptionsExtendedLow,
+  splitPriceOptionsShortLowest,
   splitPriceOptionsExtendedMedium,
   splitPriceOptions,
   lowPriceOptions,

@@ -623,6 +623,55 @@
       "fourth": "LET OP: De bovenstaande prijzen zijn uitsluitend gebaseerd op standaard printwerk. Flyers, posters of visitekaartjes vallen hier niet onder. Als u dit type drukwerk door ons wilt laten printen, gelden de prijzen zoals vermeld onder het kopje “Drukwerk”.<br>Wij bieden daarnaast geen ondersteuning bij werkzaamheden zoals het plaatsen van meerdere afbeeldingen op één vel of bij de afwerking (snijden, rillen, vouwen); dit is de verantwoordelijkheid van de klant."
     }
   },
+  "finishingPage": {
+    "pageHeader": {
+      "title": "Afwerking",
+      "introduction": "Met onze afwerkingsopties maakt u uw printwerk compleet en professioneel. Zo kunt u uw documenten beschermen met lamineren, posters stevig op foamboard bevestigen of verslagen en presentaties netjes inbinden. Op deze pagina vindt u alle mogelijkheden en bijbehorende prijzen, waarbij u kunt kiezen uit verschillende formaten en afwerkingen zoals een matte of glanzende laag."
+    },
+    "cardLaminating": {
+      "title": "Lamineren",
+      "introduction": "Bescherm uw documenten en printwerk met lamineren, zodat ze langer mooi blijven. Groot formaat lamineren is mogelijk met een matte of glanzende laag. Hieronder vindt u de prijzen per formaat en type laminering.",
+      "tableLaminating": {
+        "title": "Lamineren",
+        "variants": {
+          "A6mid": "A6 middel",
+          "A5mid": "A5 middel",
+          "A4thin": "A4 dun",
+          "A4mid": "A4 middel",
+          "A4thick": "A4 dik",
+          "A3mid": "A3 middel"
+        }
+      },
+      "tablePosterLaminating": {
+        "title": "Poster lamineren"
+      }
+    },
+    "cardBinding": {
+      "title": "Inbinden",
+      "introduction": "Werk uw documenten en verslagen netjes af met onze inbindopties. Bij inbinden zijn plastic covers inbegrepen, en bij kalenderbinding krijgt u ook een kalenderhaakje en boordkarton voor de achterzijde. Hieronder ziet u de prijzen voor inbinden met een metalen ring, lijmmap of kalenderbinding.",
+      "tableBinding": {
+        "title": "Inbinden",
+        "subtitle": "Metalen ring en lijmmap",
+        "variants": {
+          "to50": "10-50 vel",
+          "to100": "51-100 vel",
+          "to200": "101-200 vel",
+          "to280": "201-280 vel"
+        }
+      },
+      "tableCalendarBinding": {
+        "title": "Kalenderbinding"
+      }
+    },
+    "foamboard": {
+      "title": "Foamboard",
+      "introduction": "Geef uw prints extra stevigheid met ons zelfklevende foamboard. Ideaal voor posters en presentaties die direct geplakt kunnen worden, verkrijgbaar in verschillende formaten.",
+      "tableFoamboard": {
+        "title": "Foamboard",
+        "subtitle": "Zelfklevend"
+      }
+    }
+  },
   "officeSupplies": {
     "title": "Kantoor artikelen",
     "introduction": "Efficiënt werken begint met de juiste kantoorbenodigdheden. In onze winkel vindt u een breed assortiment kantoorartikelen, van schrijfwaren en ordners tot enveloppen en etiketten. Daarnaast bieden we een grote selectie cartridges voor diverse printers, zodat u altijd scherp en helder kunt afdrukken.<br /><br />Ons aanbod bestaat uit producten van bekende merken, geselecteerd op kwaliteit en betrouwbaarheid."
@@ -657,6 +706,11 @@
     "range160grTo260gr": "160 grams tot 260 grams papier"
   },
   "paperFormats": {
+    "A0": "A0",
+    "A1": "A1",
+    "A2": "A2",
+    "B2": "B2",
+    "A3": "A3",
     "A3Budget": "A3 Budget kwaliteit",
     "A3Format": "A3 formaat",
     "A3Hq": "A3 Hoge kwaliteit",
@@ -745,10 +799,15 @@
     "clothingGarment": "Kledingstuk",
     "format": "Formaat",
     "cards": "Kaarten",
+    "businessCards": "Visitekaartjes",
     "flyers": "Flyers",
     "folders": "Folders",
     "posters": "Posters",
     "magazines": "Magazines",
+    "laminating": "Lamineren",
+    "binding": "Inbinden",
+    "calendarBinding": "Kalenderbinding",
+    "posterLaminating": "Poster lamineren",
     "facebook": "Facebook",
     "telephoneNo": "Telefoonnummer",
     "email": "E-mailadres"

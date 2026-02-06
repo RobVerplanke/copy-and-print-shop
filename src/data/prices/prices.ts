@@ -899,4 +899,56 @@ export const prices = {
       },
     },
   },
+  finishing: {
+    laminating: {
+      card: 0.25,
+      A6mid: 0.45,
+      A5mid: 0.65,
+      A4thin: 0.65,
+      A4mid: 1,
+      A4thick: 1.4,
+      A3mid: 2.25,
+    },
+    posterLaminating: {
+      A2: 10,
+      B2: 12,
+      A1: 15,
+      B1: 19,
+      A0: 22,
+    },
+    foamboard: {
+      A4: 6,
+      A3: 8,
+      A2: 10,
+      B2: 13,
+      A1: 17,
+      A0: 27,
+    },
+    binding: {
+      A4: {
+        to50: 2.75,
+        to100: 3,
+        to200: 3.25,
+        to280: 3.75,
+      },
+      A3: {
+        to50: 3.75,
+        to100: 4,
+        to200: 4.25,
+        to280: 4.75,
+      },
+    },
+    calendarBinding: {
+      A4: {
+        to10: 3.75,
+        to50: 3.5,
+        to100: 3.25,
+      },
+      A3: {
+        to10: 5.75,
+        to50: 5.5,
+        to100: 5.25,
+      },
+    },
+  },
 };

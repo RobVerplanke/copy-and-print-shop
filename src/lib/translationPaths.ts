@@ -307,6 +307,43 @@ export const copyPrintContentPaths = {
   },
 };
 
+// Finishing
+export const finishingContentPaths = {
+  pageHeader: {
+    title: 'finishingPage.pageHeader.title',
+    introduction: 'finishingPage.pageHeader.introduction',
+  },
+  cardLaminating: {
+    title: 'finishingPage.cardLaminating.title',
+    introduction: 'finishingPage.cardLaminating.introduction',
+    tableLaminating: {
+      title: 'finishingPage.cardLaminating.title',
+    },
+    tablePosterLaminating: {
+      title: 'finishingPage.cardPosterLaminating.title',
+    },
+  },
+  cardBinding: {
+    title: 'finishingPage.cardBinding.title',
+    introduction: 'finishingPage.cardBinding.introduction',
+    tableBinding: {
+      title: 'finishingPage.cardBinding.tableBinding.title',
+      subtitle: 'finishingPage.cardBinding.tableBinding.subtitle',
+    },
+    tableCalendarBinding: {
+      title: 'finishingPage.cardBinding.tableCalendarBinding.title',
+    },
+  },
+  foamboard: {
+    title: 'finishingPage.foamboard.title',
+    introduction: 'finishingPage.foamboard.introduction',
+    tableFoamboard: {
+      title: 'finishingPage.foamboard.tableFoamboard.title',
+      subtitle: 'finishingPage.foamboard.tableFoamboard.subtitle',
+    },
+  },
+};
+
 // Custom Print - Business Cards
 export const cardsContentPaths = {
   data: {
