@@ -11,6 +11,7 @@ type TextBlockType = {
     | 'tableTitle'
     | 'cardTitle'
     | 'xl5Title'
+    | 'xl5TitleRegular'
     | 'xl4Title'
     | 'xl2Title'
     | 'xl3Title'
@@ -31,6 +32,7 @@ export function TextBlock({ value, variant }: TextBlockType) {
     tableTitle: 'text-large font-bold',
     cardTitle: 'text-2xl font-bold',
     xl5Title: 'text-5xl font-bold',
+    xl5TitleRegular: 'text-5xl',
     xl4Title: 'text-4xl font-bold',
     xl3Title: 'text-3xl font-bold',
     xl2Title: 'text-2xl font-bold',

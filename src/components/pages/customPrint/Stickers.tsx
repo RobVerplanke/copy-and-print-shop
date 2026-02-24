@@ -23,7 +23,7 @@ export default function Stickers() {
 
   // Get table data with a function so the content is directly translatable in this component
   const [tableLargeFormat, setTableLargeFormat] = useState(
-    getTableLargeFormat()
+    getTableLargeFormat(),
   );
 
   // When the language is changed, update the table content directly
@@ -80,7 +80,7 @@ export default function Stickers() {
         <div className="pb-8">
           <TextBlock
             value={shopInfoPaths.contactTitle}
-            variant={'subTitleMedium'}
+            variant={'xlTitleRegular'}
           />
         </div>
         <div className="w-full">

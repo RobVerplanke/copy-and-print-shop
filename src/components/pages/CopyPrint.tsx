@@ -151,7 +151,7 @@ export default function CopyPrint() {
         >
           <TextBlock
             value={shopInfoPaths.contactTitle}
-            variant={'subTitleMedium'}
+            variant={'xlTitleRegular'}
           />
         </div>
         <div className="w-full m-">

@@ -78,7 +78,7 @@ export default function CustomPrint() {
         <div className="pb-8">
           <TextBlock
             value={shopInfoPaths.contactTitle}
-            variant={'subTitleMedium'}
+            variant={'xlTitleRegular'}
           />
         </div>
         <div className="w-full">

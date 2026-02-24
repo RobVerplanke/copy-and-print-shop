@@ -20,7 +20,7 @@ export default function ContactInfo() {
   return (
     <div
       className={`
-        flex flex-col items-center px-2 gap-6
+        flex flex-col items-center px-2 gap-6 max-w-3xl
         ${stylePreset.overall.textColorLight}
         `}
     >
