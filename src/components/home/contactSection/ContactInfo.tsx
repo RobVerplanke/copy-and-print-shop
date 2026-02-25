@@ -25,10 +25,12 @@ export default function ContactInfo() {
         `}
     >
       <div className="hidden md:block">
-        <TextBlock value={contactInfoTextContent.title} variant="xl5Title" />
+        <TextBlock value={contactInfoTextContent.title} variant="xl3Title" />
       </div>
+
+      {/* For mobile dimensions */}
       <div className="block md:hidden">
-        <TextBlock value={contactInfoTextContent.title} variant="xl4Title" />
+        <TextBlock value={contactInfoTextContent.title} variant="xl3Title" />
       </div>
 
       <div className="flex text-center">
