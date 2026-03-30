@@ -440,50 +440,50 @@
       },
       "cardColorHeavyPaper": {
         "header": {
-          "title": "Kleur",
+          "title": "Kleur of Zwart-wit",
           "subTitle": "160 tot 260 grams papier",
           "introduction": "Daarnaast bieden we ook andere papiersoorten aan, te weten 160 grams mat, 160 grams satijn, 190 grams glanzend en 260 grams satijn papier. Al deze opties zijn beschikbaar voor kleurafdrukken en bieden een professionele afwerking, geschikt voor uiteenlopende toepassingen waarbij zowel duurzaamheid als visuele impact van belang zijn. Elk type papier biedt specifieke eigenschappen voor een optimale presentatie van uw ontwerp, afhankelijk van de gewenste uitstraling en het beoogde gebruik."
         },
         "table160gsmMatte": {
           "header": {
-            "title": "Kleur",
+            "title": "Kleur of Zwart-wit",
             "subTitle": "160 grams mat papier"
           }
         },
         "table160gsmSatin": {
           "header": {
-            "title": "Kleur",
+            "title": "Kleur of Zwart-wit",
             "subTitle": "160 grams satijn papier"
           }
         },
         "table190gsmGloss": {
           "header": {
-            "title": "Kleur",
+            "title": "Kleur of Zwart-wit",
             "subTitle": "190 grams glanzend papier"
           }
         },
         "table260gsmSatin": {
           "header": {
-            "title": "Kleur",
+            "title": "Kleur of Zwart-wit",
             "subTitle": "260 grams satijn papier"
           }
         }
       },
       "cardColorSpecialMaterials": {
         "header": {
-          "title": "Kleur",
+          "title": "Kleur of Zwart-wit",
           "subTitle": "Speciale materialen",
           "introduction": "Voor onze posters in speciale materialen bieden wij polypropyleen en 260 grams geschept papier aan. Deze materialen zijn beschikbaar voor kleurafdrukken en bieden unieke eigenschappen die ze geschikt maken voor specifieke toepassingen waarbij duurzaamheid en een onderscheidende uitstraling belangrijk zijn. Polypropyleen is waterbestendig en zeer stevig, ideaal voor buitengebruik of in omgevingen waar de poster langdurig moet blijven hangen. Het geschepte papier biedt een natuurlijke, handgemaakte uitstraling, wat het geschikt maakt voor luxe of artistieke projecten."
         },
         "tablePolypropylene": {
           "header": {
-            "title": "Kleur",
+            "title": "Kleur of Zwart-wit",
             "subTitle": "Polypropyleen"
           }
         },
         "table260gsmHandmade": {
           "header": {
-            "title": "Kleur",
+            "title": "Kleur of Zwart-wit",
             "subTitle": "260 grams geschept papier"
           }
         }

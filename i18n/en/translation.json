@@ -432,50 +432,50 @@
       },
       "cardColorHeavyPaper": {
         "header": {
-          "title": "Color",
+          "title": "Color or Black and White",
           "subTitle": "160 to 260 gsm paper",
           "introduction": "Additionally, we offer other types of paper, including 160 gsm matte, 160 gsm satin, 190 gsm glossy, and 260 gsm satin paper. All of these options are available for color printing and provide a professional finish, suitable for a variety of applications where both durability and visual impact are important. Each type of paper offers specific qualities for optimal presentation of your design, depending on the desired appearance and intended use."
         },
         "table160gsmMatte": {
           "header": {
-            "title": "Color",
+            "title": "Color or Black and White",
             "subTitle": "160 gsm Matte paper"
           }
         },
         "table160gsmSatin": {
           "header": {
-            "title": "Color",
+            "title": "Color or Black and White",
             "subTitle": "160 gsm Satin paper"
           }
         },
         "table190gsmGloss": {
           "header": {
-            "title": "Color",
+            "title": "Color or Black and White",
             "subTitle": "190 gsm Gloss paper"
           }
         },
         "table260gsmSatin": {
           "header": {
-            "title": "Color",
+            "title": "Color or Black and White",
             "subTitle": "260 gsm Satin paper"
           }
         }
       },
       "cardColorSpecialMaterials": {
         "header": {
-          "title": "Color",
+          "title": "Color or Black and White",
           "subTitle": "Special materials",
           "introduction": "For our posters in special materials, we offer polypropylene and 260 gsm laid paper. These materials are available for color prints and offer unique properties that make them suitable for specific applications where durability and a distinctive appearance are important. Polypropylene is water-resistant and very sturdy, making it ideal for outdoor use or environments where the poster needs to stay up for a long time. The laid paper provides a natural, handmade appearance, making it suitable for luxury or artistic projects."
         },
         "tablePolypropylene": {
           "header": {
-            "title": "Color",
+            "title": "Color or Black and White",
             "subTitle": "Polypropylene"
           }
         },
         "table260gsmHandmade": {
           "header": {
-            "title": "Color",
+            "title": "Color or Black and White",
             "subTitle": "260 gsm Handmade paper"
           }
         }
