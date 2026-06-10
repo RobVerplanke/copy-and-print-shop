@@ -14,6 +14,10 @@ dist
 dist-ssr
 *.local
 
+# Opzet CMS
+thartje-cms
+i18n/nl/translation-new.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
