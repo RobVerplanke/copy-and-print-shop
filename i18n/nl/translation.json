@@ -473,7 +473,7 @@
         "header": {
           "title": "Kleur of Zwart-wit",
           "subTitle": "Speciale materialen",
-          "introduction": "Voor onze posters in speciale materialen bieden wij polypropyleen en 260 grams geschept papier aan. Deze materialen zijn beschikbaar voor kleurafdrukken en bieden unieke eigenschappen die ze geschikt maken voor specifieke toepassingen waarbij duurzaamheid en een onderscheidende uitstraling belangrijk zijn. Polypropyleen is waterbestendig en zeer stevig, ideaal voor buitengebruik of in omgevingen waar de poster langdurig moet blijven hangen. Het geschepte papier biedt een natuurlijke, handgemaakte uitstraling, wat het geschikt maakt voor luxe of artistieke projecten."
+          "introduction": "Voor onze posters in speciale materialen bieden wij polypropyleen, 260 grams geschept papier en canvas aan. Deze materialen zijn beschikbaar voor kleurafdrukken en bieden unieke eigenschappen die ze geschikt maken voor specifieke toepassingen waarbij duurzaamheid en een onderscheidende uitstraling belangrijk zijn.<br><br>Polypropyleen is waterbestendig en zeer stevig, ideaal voor buitengebruik of in omgevingen waar de poster langdurig moet blijven hangen.<br>Het geschepte papier biedt een natuurlijke, handgemaakte uitstraling, wat het geschikt maakt voor luxe of artistieke projecten.<br><br>Canvas is een stofsoort, het soepel en makkelijk mee te nemen op reis, men kan het bijvoorbeeld opvouwen en in een koffer mee nemen. Bij een volledige kleurdekking kunnen er wel lijnen in de afdruk komen, hier zijn wij niet voor verantwoordelijk. Een afdruk moet vaak even drogen, dus daar kan men niet op wachten, hier zit een levertijd op.<br><br><b> Let op; wij spannen afdrukken op canvas niet op.</b>"
         },
         "tablePolypropylene": {
           "header": {
@@ -485,6 +485,12 @@
           "header": {
             "title": "Kleur of Zwart-wit",
             "subTitle": "260 grams geschept papier"
+          }
+        },
+        "tableCanvas": {
+          "header": {
+            "title": "Kleur of Zwart-wit",
+            "subTitle": "Canvasprint (niet opgespannen)"
           }
         }
       },
@@ -805,6 +811,7 @@
     "flyers": "Flyers",
     "folders": "Folders",
     "posters": "Posters",
+    "CanvasPrints": "Canvasprints",
     "magazines": "Magazines",
     "laminating": "Lamineren",
     "binding": "Inbinden",

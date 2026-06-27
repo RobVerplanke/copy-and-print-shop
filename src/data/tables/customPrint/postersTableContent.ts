@@ -1,7 +1,8 @@
 import { t } from 'i18next';
 import { prices } from '../../prices/prices';
 import {
-  paperSizes,
+  paperSizes, 
+  canvasSizes,
   splitPriceOptionsShort,
   splitPriceOptionsShortLow,
 } from '../../../lib/priceOptions';
@@ -204,6 +205,27 @@ export function getTable260gsmHandmade() {
       options: paperSizes,
       prices: [
         ...Object.values(prices.customPrint.posters.color['260grHandMade']),
+      ],
+    },
+  };
+}
+
+// 260 gsm Handmade paper - Collect data for pricing table
+export function getTableCanvas() {
+  return {
+    hasAsterisk: false,
+    tableTitle:
+      postersContentPaths.cardColorSpecialMaterials.tableCanvas.header
+        .title,
+    tableSubTitle:
+      postersContentPaths.cardColorSpecialMaterials.tableCanvas.header
+        .subTitle,
+    data: {
+      headerTitles: [t('commonWords.CanvasPrints'), t('commonWords.perPiece')],
+      units: [t('commonWords.format'), t('commonWords.price')],
+      options: canvasSizes,
+      prices: [
+        ...Object.values(prices.customPrint.posters.color['canvas']),
       ],
     },
   };

@@ -17,6 +17,7 @@ import {
   getTable160gsmSatin,
   getTable190gsmGloss,
   getTable260gsmHandmade,
+  getTableCanvas,
   getTable260gsmSatin,
   getTable80gsmBlackAndWhite,
   getTable80gsmColor,
@@ -57,6 +58,9 @@ export default function Posters() {
   const [table260gsmHandmade, setTable260gsmHandmade] = useState(
     getTable260gsmHandmade(),
   );
+    const [tableCanvas, setTableCanvas] = useState(
+    getTableCanvas(),
+  );
   const [tableColorA3Hq, setTableColorA3Hq] = useState(getTableColorA3Hq());
   const [tableColorA3Budget, setTableColorA3Budget] = useState(
     getTableColorA3Budget(),
@@ -72,6 +76,7 @@ export default function Posters() {
     setTable260gsmSatin(getTable260gsmSatin());
     setTablePolypropylene(getTablePolypropylene());
     setTable260gsmHandmade(getTable260gsmHandmade());
+    setTableCanvas(getTableCanvas());
     setTableColorA3Hq(getTableColorA3Hq());
     setTableColorA3Budget(getTableColorA3Budget());
   }, [i18n.language]);
@@ -144,7 +149,7 @@ export default function Posters() {
                   .introduction,
               notification: undefined,
             }}
-            tableContent={[tablePolypropylene, table260gsmHandmade]}
+            tableContent={[tablePolypropylene, table260gsmHandmade, tableCanvas]}
           />
 
           {/* A3 Full color - Budget and High Quality*/}

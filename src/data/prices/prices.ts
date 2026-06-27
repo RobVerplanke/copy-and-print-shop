@@ -683,6 +683,27 @@ export const prices = {
             perPiece: 38.5,
           },
         },
+         // Drukwerk - Posters - Kleur - Canvas
+        'canvas': {
+           A3: {
+            perPiece: 15,
+          },
+          A2: {
+            perPiece: 20,
+          },
+          B2: {
+            perPiece: 30,
+          },
+          A1: {
+            perPiece: 35,
+          },
+          B1: {
+            perPiece: 40,
+          },
+          A0: {
+            perPiece: 49,
+          },
+        },
         // Drukwerk - Posters - Budget Full color
         fullColorBudget: {
           '1-100': {

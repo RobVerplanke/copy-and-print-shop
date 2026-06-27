@@ -666,6 +666,14 @@ export const postersContentPaths = {
           'customPrintPage.posters.cardColorSpecialMaterials.table260gsmHandmade.header.subTitle',
       },
     },
+     tableCanvas: {
+      header: {
+        title:
+          'customPrintPage.posters.cardColorSpecialMaterials.tableCanvas.header.title',
+        subTitle:
+          'customPrintPage.posters.cardColorSpecialMaterials.tableCanvas.header.subTitle',
+      },
+    },
   },
   cardColorA3: {
     header: {
