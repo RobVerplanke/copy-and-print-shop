@@ -1,4 +1,4 @@
-import newPic from '../assets/vakantietijd2026.jpg';
+import newPic from '../assets/vakantietijd2026-2.jpeg';
 
 export default function VacationToastContent() {
   return (

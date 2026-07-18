@@ -8,7 +8,7 @@ export function ShowVacationToast() {
     closeButton: true,
     pauseOnHover: true,
     style: {
-      width: '416px', // 130% of 320px ≈ 416px
+      width: '600px', // 130% of 320px ≈ 416px
     },
   });
 }
