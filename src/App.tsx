@@ -18,7 +18,7 @@ export default function App() {
   const { stylePreset } = useData();
 
 
-  // Comment out useEffect hook below to inactivate toat pop-up
+  // Comment out useEffect hook below and ToastContainer (line 53) to deactivate the toast pop-up
 
   // Always show the Toast after loading the app
   // useEffect(() => {
@@ -48,8 +48,9 @@ export default function App() {
       <Footer />
       <FooterCopyright />
 
-      {/* Toast component */}
+      {/* Comment out ToastContainer below to deactivate the toast pop-up */}
 
+      {/* Toast component */}
       {/* <ToastContainer
         position="bottom-right"
         autoClose={10000}

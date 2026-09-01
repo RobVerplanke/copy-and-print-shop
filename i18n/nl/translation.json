@@ -119,7 +119,7 @@
       "subtitle": "Wilt u een prijsopgave voor een product ontvangen? Wij voorzien u graag van een offerte op maat. Het aanvragen van een offerte is kosteloos en eenvoudig.",
       "homePageSubtitle": "Wilt u een prijsopgave ontvangen voor print- of drukwerk, of direct een printopdracht plaatsen? Dat kan eenvoudig per e-mail of via het contactformulier. Bestanden kunt u sturen naar info@thartje.nl. Vermeld daarbij uw wensen, zoals oplage, papiersoort, kleur of zwart-wit en enkel- of dubbelzijdig printen.<br><br>Lees vóór het aanleveren van een opdracht eerst onze voorwaarden, zodat u kunt bepalen of u de opdracht door ons wilt laten uitvoeren of zelf bij ons in de zaak wilt printen. Wij maken graag een offerte op maat. Het aanvragen van een offerte is eenvoudig en kosteloos.",
       "contactTitle": "Wilt u een prijsopgave ontvangen voor print- of drukwerk, of direct een printopdracht plaatsen? Dat kan eenvoudig per e-mail of via het contactformulier. Bestanden kunt u sturen naar info@thartje.nl. Vermeld daarbij uw wensen, zoals oplage, papiersoort, kleur of zwart-wit en enkel- of dubbelzijdig printen.<br><br>Lees vóór het aanleveren van een opdracht eerst onze voorwaarden, zodat u kunt bepalen of u de opdracht door ons wilt laten uitvoeren of zelf bij ons in de zaak wilt printen. Wij maken graag een offerte op maat. Het aanvragen van een offerte is eenvoudig en kosteloos.",
-      "messageTitle": "Stuur een bericht of vraag offerte aan",
+      "messageTitle": "Niet kunnen vinden wat u zoekt?",
       "contactForm": "Stuur bericht",
       "confirmMessage": "<b>Bericht verzonden!</b><br />Wij zullen zo spoedig contact met u opnemen.",
       "errors": {
@@ -743,7 +743,7 @@
   },
   "contactPage": {
     "pageTitle": "Neem contact op",
-    "contactIntroduction": "Heeft u vragen over onze producten of diensten, of wilt u meer weten over de bijbehorende kosten? Vul dan ons formulier in, en wij zorgen ervoor dat u snel en geheel vrijblijvend een offerte ontvangt.",
+    "contactIntroduction": "Stuur ons een bericht of vraag een offerte op maat aan. Wij hebben ons best gedaan om de prijzen van al onze producten op onze website te vermelden. Maar heeft u toch niet kunnen vinden wat u zoek of heeft u vragen over onze producten of diensten? Vul dan ons contactformulier in en wij zorgen ervoor dat u snel een bericht of offerte van ons ontvangt.",
     "sendMessage": "Stuur een bericht",
     "formUserName": "Naam",
     "formUserTelNumber": "Telefoonnummer",

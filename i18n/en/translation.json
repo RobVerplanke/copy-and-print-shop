@@ -113,7 +113,7 @@
       "homePageSubtitle": "Would you like to receive a quotation for printing or print services, or place a print order directly? You can easily do so by email or via the contact form. Files can be sent to info@thartje.nl. Please include your specifications, such as quantity, paper type, color or black and white, and single- or double-sided printing.<br><br>Before submitting an order, please read our terms and conditions so that you can decide whether you would like us to carry out the order or prefer to print it yourself at our shop. We are happy to provide a customized quote. Requesting a quote is simple and free of charge.",
       "contactTitle": "Would you like to receive a quotation for printing or print services, or place a print order directly? You can easily do so by email or via the contact form. Files can be sent to info@thartje.nl. Please include your specifications, such as quantity, paper type, color or black and white, and single- or double-sided printing.<br><br>Before submitting an order, please read our terms and conditions so that you can decide whether you would like us to carry out the order or prefer to print it yourself at our shop. We are happy to provide a customized quote. Requesting a quote is simple and free of charge.",
       "contactForm": "Send message",
-      "messageTitle": "Send a message or request a quote",
+      "messageTitle": "Haven't found what you're looking for?",
       "confirmMessage": "<b>Message sent!</b><br />We will contact you as soon as possible.",
       "errors": {
         "telNoOnlyNumbers": "Phone number must contain only digits.",
@@ -735,7 +735,7 @@
   },
   "contactPage": {
     "pageTitle": "Get in contact",
-    "contactIntroduction": "Do you have questions about our products or services, or would you like to know more about the associated costs? Please fill out our form, and we will ensure you receive a quote quickly and without any obligation.",
+    "contactIntroduction": "Send us a message or request a personalized quote. We have made every effort to list the prices of all our products on our website. However, if you have not found what you are looking for or have any questions about our products or services, please fill out our contact form. We will make sure you receive a prompt response or quotation from us.",
     "sendMessage": "Send a direct message",
     "formUserName": "Name",
     "formUserTelNumber": "Telephone Number",
