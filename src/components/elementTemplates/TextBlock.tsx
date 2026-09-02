@@ -5,6 +5,7 @@ type TextBlockType = {
   variant:
     | 'pageTitle'
     | 'subTitle'
+    | 'subTitleContact'
     | 'subTitleMedium'
     | 'tableSubTitle'
     | 'sectionTitle'
@@ -26,6 +27,7 @@ export function TextBlock({ value, variant }: TextBlockType) {
   const classNames = {
     pageTitle: 'text-4xl pb-4 font-medium',
     subTitle: 'text-3xl pb-2 font-normal',
+    subTitleContact: 'text-4xl pb-2 font-bold',
     subTitleMedium: 'text-2xl font-normal',
     tableSubTitle: 'text-large',
     sectionTitle: 'text-large font-bold',

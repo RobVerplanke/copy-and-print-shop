@@ -6,9 +6,9 @@ import { contactInfoTextContent } from '../../../lib/translationPaths';
 export default function MessageIntroduction() {
   return (
     <div className="flex flex-col self-start mr-20">
-      <TextBlock
+       <TextBlock
         value={contactInfoTextContent.messageTitle}
-        variant="subTitle"
+        variant="subTitleContact"
       />
       <TextBlock
         value={contactInfoTextContent.contactIntroduction}
