@@ -34,18 +34,22 @@ export const SubNavigationLink = (linkProps: SubNavigationType) => {
   const { stylePreset } = useData();
 
   return (
-    <Link to={linkProps.path} onClick={linkProps.callBack}>
-      <li
-        className={`
-          p-1 cursor-pointer
-          ${stylePreset.navigation.textSize}
-          ${stylePreset.navigation.backgroundHover}
-          ${stylePreset.navigation.textColorHover}
-          ${stylePreset.navigation.textColor}
-          `}
-      >
-        {t(linkProps.value)}
-      </li>
-    </Link>
+<li>
+  <Link
+    to={linkProps.path}
+    onClick={linkProps.callBack}
+    className={`
+      block
+      p-1
+      cursor-pointer
+      ${stylePreset.navigation.textSize}
+      ${stylePreset.navigation.backgroundHover}
+      ${stylePreset.navigation.textColor}
+      ${stylePreset.navigation.textColorHover}
+    `}
+  >
+    {t(linkProps.value)}
+  </Link>
+</li>
   );
 };

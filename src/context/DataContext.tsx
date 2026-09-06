@@ -91,6 +91,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
   );
 }
 
+// Eslint rule - Nothing to worry about
 export function useData() {
   const context = useContext(DataContext);
   if (!context) {

@@ -15,6 +15,7 @@ export type StylePresetType = {
   };
 
   header: {
+    textColor: string;
     backgroundColor: string;
   };
 
@@ -27,6 +28,7 @@ export type StylePresetType = {
     underlineActiveColor: string;
     underlineInActiveColor: string;
     underlineHoverColor: string;
+    diverderColorSubmenu: string;
   };
 
   shopInfoCard: {

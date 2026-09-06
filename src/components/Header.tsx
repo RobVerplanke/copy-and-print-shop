@@ -138,8 +138,8 @@ export default function Header() {
   return (
     <header
       className={`
-        sticky top-0 pt-1 z-20 shadow-md text-sm
-        ${stylePreset.header.backgroundColor}
+        sticky top-0 mt-0 xl:mt-12 pt-0 xl:pt-4 pb-1 z-20 shadow-md text-sm 
+        ${stylePreset.header.backgroundColor} ${stylePreset.header.textColor}
       `}
     >
       <nav className="flex flex-col xl:flex-row xl:justify-center pb-1 px-4">
@@ -173,7 +173,7 @@ export default function Header() {
             {isAccordionOpen && (
               <ul
                 className={`
-                  absolute z-20 top-[calc(100%)] lg:top-[calc(100%+4px)] w-[120px] shadow-md rounded-sm
+                  absolute z-20 top-[calc(100%)] lg:top-[calc(100%+4px)] w-[140px] shadow-md rounded-sm
                   ${stylePreset.navigation.backgroundColor}  
                 `}
               >
@@ -184,7 +184,8 @@ export default function Header() {
                 />
                 <Divider
                   style={{
-                    backgroundColor: `${stylePreset.overall.diverderColor}`,
+                    backgroundColor: 
+                    `${stylePreset.navigation.diverderColorSubmenu}`,
                   }}
                   flexItem
                   variant="fullWidth"
@@ -252,7 +253,7 @@ export default function Header() {
               </select>
             </div>
             <div className="flex items-center gap-1 pt-1 xl:pt-0">
-              <div className="text-yellow-500 pb-1">
+              <div className="text-yellow-400 pb-1">
                 <LightModeIcon fontSize="small" />
               </div>
               <button
@@ -260,7 +261,7 @@ export default function Header() {
                 className={`
                 relative w-8 h-4 flex items-center rounded-full p-1 transition
                 hover:ring-1 hover:ring-gray-400 focus:ring-[#fb0036] focus:ring-1
-                ${darkMode ? 'bg-gray-50' : 'bg-gray-600'}
+                ${darkMode ? 'bg-gray-50' : 'bg-gray-700'}
               `}
               >
                 <span
