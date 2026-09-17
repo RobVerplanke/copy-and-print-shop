@@ -491,19 +491,19 @@ export const prices = {
       // Drukwerk - Posters - Zwart/wit
       blackWhite: {
         A2: {
-          '42x59.4': 3.25,
+          '42x59.4': 4.25,
         },
         B2: {
-          '50x70': 3.75,
+          '50x70': 4.75,
         },
         A1: {
-          '59.4x84.1': 4.5,
+          '59.4x84.1': 5.5,
         },
         B1: {
-          '70x100': 4.75,
+          '70x100': 5.75,
         },
         A0: {
-          '84.1x118.9': 5,
+          '84.1x118.9': 6,
         },
       },
       // Drukwerk - Posters - Kleur - 80 grams
